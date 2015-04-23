@@ -22,6 +22,12 @@
 	<div id="menubar">
 	<div id="menu1" class="menu">
 
+		<li><a href="profile.html">Profile</a></li>
+
+	</div>
+	<div id="menubar">
+	<div id="menu1" class="menu">
+
 		<li><a href="login.html">Logout</a></li>
 
 	</div>
@@ -29,7 +35,7 @@
 </div>
 
 
-   <div id="myMap">
+<div id="myMap">
     <h1>Show Your Location</h1>
     <form id="geoForm">
       <input type="button" id="geobut" value="Show Me">
@@ -50,6 +56,74 @@
     <!—Our Code -->
     <script type="text/javascript" src="geo.js">
     </script>
+
+
+
+<p>
+E-Mail: 
+<input type="email">
+
+</p>
+
+<p>
+Species:
+<input type="text" list="species" />
+<datalist id="species">
+ 
+  <option>Rabbit</option> 
+  <option>Cat</option>
+  <option>Dog</option> 
+</datalist>
+</p>
+
+<p>
+Sex:
+<input type="text" list="sex" />
+<datalist id="sex">
+ 
+  <option>Male</option> 
+  <option>Female</option>
+  <option>Unknown</option> 
+</datalist>
+</p>
+
+<p>
+Health:
+<input type="text" list="health" />
+<datalist id="health">
+ 
+  <option>Not altered/No shots</option> 
+  <option>Altered/No shots</option>
+  <option>Altered/UTD shots</option> 
+</datalist>
+</p>
+
+<p>
+Picture: 
+<input type=file accept="image/*">
+</p>
+
+
+<p>
+
+<form enctype="multipart/form-data">
+  <input type=submit value=Love ↵
+     formenctype="application/x-www-form-urlencoded">
+</form>
+
+
+
+
+</p>
+
+
+<p>
+Age: 
+<form>
+  <input type=number name=num min=1 max=30>
+  
+</form>
+</p>
 
 
 
