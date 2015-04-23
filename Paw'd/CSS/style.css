@@ -1,0 +1,17 @@
+<!--
+body					{font-family: Verdana, Arial, sans-serif;
+						background: #8DEA6A;}
+a						{text-decoration: none; color: #9C3C94;}
+#menubar				{border-top: 4px solid #E887BE; border-right: 4px
+						solid #81CA4E; border-bottom: 4px solid #81CA4E;
+						border-left: 4px solid #E887BE; background-color:
+						#EDF393; color: #9C3C94; height: 23px;}
+
+.menu					{float: left; padding: 0.1em 3em 0.1em 0.5em;
+						cursor: default;
+						list-style-type: none;}
+
+
+div.content				{margin-left: 20px; margin-right: 20px;
+						padding-top: 8%; color: #9C3C94;}
+-->
